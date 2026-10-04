@@ -8,50 +8,73 @@
 
     <style>
 
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f2ed;
+            color: #4a4540;
+        }
+
         header {
-            background-color: #f7c6d9;
+            background-color: #d8d0c4;
             padding: 15px 25px;
         }
 
         .barra-navegacion {
             display: flex;
             gap: 10px;
+            flex-wrap: wrap;
         }
 
         .boton-nav {
             text-decoration: none;
-            color: #7a4057;
-            background-color: #ffe3ed;
+            color: #4a4540;
+            background-color: #eee9e1;
             padding: 8px 12px;
             border-radius: 6px;
         }
 
         .boton-nav:hover {
-            background-color: #e99ab8;
+            background-color: #82776b;
             color: white;
         }
 
         section {
-            background-color: #fff4f7;
-            padding: 40px;
+            background-color: #fffdf9;
+            padding: 30px;
             text-align: center;
         }
 
         .informacion {
-            background-color: #ffe3ed;
-            padding: 20px;
+            background-color: #e8e2d9;
+            padding: 25px;
             margin: 20px auto;
             max-width: 700px;
             border-radius: 10px;
+            text-align: left;
+        }
+
+        .informacion h2,
+        .informacion h3 {
+            text-align: center;
+        }
+
+        .paso {
+            background-color: #fffdf9;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
         }
 
         footer {
-            background-color: #f7c6d9;
+            background-color: #d8d0c4;
             text-align: center;
             padding: 15px;
+            margin-top: 20px;
         }
 
     </style>
+
 </head>
 
 <body>
@@ -63,14 +86,27 @@
     <nav class="barra-navegacion">
 
         <a href="index.html" class="boton-nav">Inicio</a>
-        <a href="adopciones.html" class="boton-nav">Adopciones</a>
-        <a href="donaciones.html" class="boton-nav">Donaciones</a>
-        <a href="nosotros.html" class="boton-nav">Nosotros</a>
-        <a href="contacto.html" class="boton-nav">Contacto</a>
+
+        <a href="adopciones.html" class="boton-nav">
+            Adopciones
+        </a>
+
+        <a href="donaciones.html" class="boton-nav">
+            Donaciones
+        </a>
+
+        <a href="nosotros.html" class="boton-nav">
+            Nosotros
+        </a>
+
+        <a href="contacto.html" class="boton-nav">
+            Contacto
+        </a>
 
     </nav>
 
 </header>
+
 
 <section>
 
@@ -81,35 +117,133 @@
         <h3>¿Quiénes somos?</h3>
 
         <p>
-            Huellitas Comunitarias es un proyecto creado
-            para promover la adopción responsable y ayudar
-            a animales que se encuentran en situación de calle.
+            Somos un proyecto llamado <strong>Huellitas Comunitarias</strong>,
+            creado para promover el cuidado, respeto y bienestar de los
+            animales que necesitan un hogar.
+        </p>
+
+        <p>
+            Nuestro objetivo es ayudar a crear conciencia sobre la
+            adopción responsable y mostrar diferentes formas en las
+            que podemos ayudar a los animalitos.
         </p>
 
     </div>
+
 
     <div class="informacion">
 
-        <h3>Nuestro objetivo</h3>
+        <h2>🐶 Descubre cómo puedes adoptar</h2>
 
         <p>
-            Fomentar el cuidado, respeto y protección de
-            los animales, además de motivar a nuestra
-            comunidad a ayudar.
+            Adoptar es una decisión importante que requiere
+            responsabilidad, tiempo y cariño. Estos son algunos
+            pasos que puedes seguir:
+        </p>
+
+
+        <div class="paso">
+
+            <h3>1. 🐾 Conoce una estancia o refugio</h3>
+
+            <p>
+                Puedes visitar una estancia o refugio de animales
+                para conocer a los animalitos rescatados. También
+                puedes ayudar a un animal que encuentres en la calle,
+                brindándole un lugar seguro y buscando la manera
+                responsable de encontrarle un hogar.
+            </p>
+
+        </div>
+
+
+        <div class="paso">
+
+            <h3>2. ❤️ Elige con responsabilidad</h3>
+
+            <p>
+                Piensa cuál animal puede adaptarse mejor a tu
+                familia, espacio y forma de vida. Adoptar es un
+                compromiso que debe tomarse con responsabilidad.
+            </p>
+
+        </div>
+
+
+        <div class="paso">
+
+            <h3>3. 🏠 Prepara tu hogar</h3>
+
+            <p>
+                Antes de adoptar, prepara un espacio seguro,
+                limpio y cómodo donde el animal pueda vivir.
+            </p>
+
+        </div>
+
+
+        <div class="paso">
+
+            <h3>4. 🐕 Bríndale cuidados</h3>
+
+            <p>
+                Dale alimento, agua, atención, cariño y los
+                cuidados necesarios para que tenga una vida
+                saludable y feliz.
+            </p>
+
+        </div>
+
+
+        <div class="paso">
+
+            <h3>5. 💕 Sé responsable</h3>
+
+            <p>
+                Recuerda que adoptar no es solo llevar un animal
+                a casa. Es comprometerte a cuidarlo y quererlo
+                durante toda su vida.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="informacion">
+
+        <h2>🌎 Nuestro objetivo</h2>
+
+        <p>
+            Queremos fomentar una cultura de respeto hacia los
+            animales y motivar a más personas a considerar la
+            adopción responsable como una forma de ayudar.
+        </p>
+
+        <p>
+            También buscamos que las personas conozcan que pueden
+            ayudar mediante donaciones de alimento, cobijas y
+            artículos de limpieza.
         </p>
 
     </div>
 
-    <h2>❤️ Juntos podemos ayudar a más animalitos ❤️</h2>
-
 </section>
+
 
 <footer>
 
-    <p>Huellitas Comunitarias | Proyecto PAEC</p>
+    <p>
+        🐾 Huellitas Comunitarias | Proyecto PAEC
+    </p>
+
+    <p>
+        Juntos podemos ayudar a más animalitos ❤️
+    </p>
 
 </footer>
 
 </body>
+
 </html>
 ```
